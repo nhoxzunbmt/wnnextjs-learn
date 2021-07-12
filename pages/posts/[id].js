@@ -21,7 +21,7 @@ export default function Home(props) {
     <p>Title: {data.title}</p>
     <p>
         
-        <Image src={data.url} alt="" />
+        <Image src={data.url} alt="" width="300" height="600"/>
     </p>
     </div>
   )
