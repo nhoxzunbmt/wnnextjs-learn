@@ -20,7 +20,8 @@ export default function Home(props) {
     <p>Post id: {router.query.id}</p>
     <p>Title: {data.title}</p>
     <p>
-        <img src={data.url} alt="" />
+        
+        <Image src={data.url} alt="" />
     </p>
     </div>
   )
